@@ -1,6 +1,6 @@
 /* Footer general */
 .footer {
-  background-color: #201f20; /* Fondo oscuro para contraste */
+  background: linear-gradient(180deg, #520381 0%, #11011b 80%);
   color: white;
   padding: 2rem 1rem;
   font-family: "Roboto", sans-serif;
