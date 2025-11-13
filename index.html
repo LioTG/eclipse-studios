@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Eclipse Studios</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="pie.css" />
+  </head>
+  <body>
+    <nav class="top-header">
+      <a href="" class="logo">
+        <img
+          height="80"
+          width="auto"
+          src="img/eclipse-studios.png"
+          alt="Eclipse Studios Logo"
+        />
+      </a>
+
+      <ul class="menu-horizontal">
+        <li><a href="">Acerca de</a></li>
+        <li>
+          <a href="">Juegos</a>
+          <ul class="menu-vertical">
+            <li><a href="">Lost in the Void</a></li>
+            <li><a href="">Sands of Adventure</a></li>
+            <li><a href="">Cybernetic Assault</a></li>
+            <li><a href="">Rogue Vanguard</a></li>
+          </ul>
+        </li>
+        <li><a href="">Puestos</a></li>
+        <li><a href="">Contacto</a></li>
+      </ul>
+    </nav>
+    <!--SECCION ACERCA DE-->>
+    <section class="seccion-acercade">
+      <div class="div-general-acercade">
+        <div class="div-acercade-texto">
+          <h2>Quiénes somos</h2>
+          <p>
+            Somos un estudio independiente que combina arte, tecnología y
+            narrativa para crear experiencias inmersivas que conecten con los
+            jugadores.
+          </p>
+        </div>
+        <div class="div-acercade-img">
+          <img src="img/luisgarcia.png" />
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION JUEGOS-->
+    <section class="seccion-juegos">
+      <div class="div-general-juegos">
+        <div class="div-juegos-texto">
+          <h2>Nuestros Juegos</h2>
+          <p>Explora nuestra colección de mundos creados para ti.</p>
+        </div>
+        <div class="div-juegos-video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/GI9kwM_d_78?si=WotTEoMGm5L8jL2n"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION PUESTOS-->
+    <section class="seccion-puestos">
+      <div class="div-general-puestos">
+        <div class="div-puestos-texto">
+          <h2>Puestos vacantes</h2>
+          <p>Sé parte de nuestro equipo</p>
+        </div>
+        <div class="div-puestos-img">
+          <img src="img/luisgarcia.png" />
+        </div>
+      </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section class="seccion-formulario">
+      <div class="div-container-form">
+        <h2>Contacto</h2>
+        <p>
+          Gracias por tu interés en Eclipse Studios. Si tienes alguna duda o
+          pedido, contáctanos. Con mucho gusto te daremos la información que
+          necesites.
+        </p>
+        <form class="formulario-contacto">
+          <div class="campo">
+            <label for="nombre">Nombre</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingresa tu nombre"
+            />
+          </div>
+          <div class="campo">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ingresa tu email"
+            />
+          </div>
+          <div class="campo">
+            <label for="telefono">Teléfono</label>
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Introduce tu número de teléfono"
+            />
+          </div>
+          <div class="campo">
+            <label for="asunto">Asunto</label>
+            <input
+              type="text"
+              id="asunto"
+              name="asunto"
+              placeholder="Escribe el asunto"
+            />
+          </div>
+          <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <input
+              type="text"
+              id="mensaje"
+              name="mensaje"
+              placeholder="Escribe tu mensaje aquí"
+            />
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- PIE DE PAGINA -->
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img src="img/eclipse-studios.png" alt="Logo" class="footer-logo" />
+            <p>Eclipse Studios</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>

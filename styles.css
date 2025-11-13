@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-header {
+  position: fixed;
+  background: linear-gradient(90deg, #520381 0%, #11011b 80%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+  z-index: 100;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.menu-horizontal li a:hover {
+  color: violet;
+  background-color: purple;
+}
+
+.menu-horizontal li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.menu-vertical {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  display: none;
+  width: 12.5rem;
+  background-color: #000000;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu-vertical li a {
+  padding: 0.938rem 0.938rem 0.938rem 1.25rem; /* top → right → bottom → left */
+}
+
+/*seccion acerca de*/
+.seccion-acercade {
+  padding: 2.5rem 1.25rem;
+  background-color: #201f20;
+}
+
+.div-general-acercade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+
+.div-acercade-texto {
+  flex: 1;
+}
+
+.div-acercade-texto h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.938rem;
+}
+
+.div-acercade-texto p {
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.div-acercade-img {
+  flex: 1;
+}
+
+.div-acercade-img img {
+  padding: 4.375rem 0 1.25rem 0;
+  width: auto;
+  height: 15rem;
+  max-width: 15rem;
+}
+
+/*seccion juegos*/
+.seccion-juegos {
+  padding: 2.5rem 1.25rem;
+  background: linear-gradient(#520381 0%, #201f20 80%);
+}
+
+.div-general-juegos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+
+.div-juegos-texto {
+  flex: 1;
+}
+
+.div-juegos-texto h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.938rem;
+}
+
+.div-juegos-texto p {
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.div-juegos-video {
+  flex: 1;
+}
+
+.div-juegos-video iframe {
+  width: 100%;
+  max-width: 35rem;
+}
+
+/*seccion puestos*/
+.seccion-puestos {
+  padding: 2.5rem 1.25rem;
+  background-color: #201f20;
+}
+
+.div-general-puestos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
+  gap: 2.5rem;
+}
+
+.div-puestos-texto {
+  flex: 1;
+}
+
+.div-puestos-texto h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 0.938rem;
+}
+
+.div-puestos-texto p {
+  color: white;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.div-puestos-img {
+  flex: 1;
+}
+
+.div-puestos-img img {
+  padding: 4.375rem 0 1.25rem 0;
+  width: auto;
+  height: 15rem;
+  max-width: 15rem;
+}
+
+/*CONTACTO*/
+.seccion-formulario {
+  background-color: #12011d;
+  padding: 2.5rem;
+  border: 0.188rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.div-container-form {
+  padding: 1.875rem;
+  border: 0.125rem solid #520381;
+  border-radius: 1.25rem;
+  width: 100%;
+  max-width: 37.5rem;
+  text-align: center;
+  color: white;
+}
+
+.campo {
+  border: 0.063rem;
+  padding: 0.938rem;
+  margin-bottom: 0.938rem;
+  border-radius: 0.5rem;
+}
+
+.formulario-contacto label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  background-color: transparent;
+  width: 100%;
+  padding: 0.625rem;
+  border: none;
+  text-align: center;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 70%;
+  text-decoration: underline;
+}
+
+button {
+  background-color: #520381;
+  color: white;
+  border: none;
+  border-radius: 0.625rem;
+  width: 100%;
+  max-width: 12.5rem;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+}
